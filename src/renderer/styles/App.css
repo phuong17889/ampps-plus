@@ -1,0 +1,50 @@
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background: black;
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: none;
+}
+
+.menu {
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.menu-button img {
+  height: 18px;
+}
+
+.header {
+  height: 115px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+.header .logo {
+  margin: 0 10px;
+}
+
+.header img.logo-img {
+  width: 220px;
+}
+
+.navbar {
+  height: 42px;
+}
+
+.navbar button i {
+  color: white;
+}
